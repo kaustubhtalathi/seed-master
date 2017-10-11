@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.mat-grid-tile img {
+    max-width: 100%;
+}
+
+.mat-grid-tile-header p,
+.mat-grid-tile-footer a {
+    width: 100%;
+    text-align: center;
+}

@@ -1,9 +1,31 @@
+header,
+footer {
+    text-align: center;
+}
+
+.mat-grid-tile {
+    border: 1px solid #666;
+}
+
+.mat-grid-tile a {
+    text-align: center;
+}
+
 .mat-grid-tile img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .mat-grid-tile-header p,
-.mat-grid-tile-footer a {
+.mat-grid-tile-footer article {
     width: 100%;
     text-align: center;
+}
+
+.mat-grid-tile .mat-grid-tile-footer, .mat-grid-tile .mat-grid-tile-header {
+    background: rgba(0,0,0,.08) !important;
+    color: #000 !important;
+}
+
+.mat-grid-tile .mat-grid-tile-footer>*, .mat-grid-tile .mat-grid-tile-header>* {
+    font-size: large !important;
 }
